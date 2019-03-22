@@ -29,10 +29,10 @@
 		<ion-icon name="menu"></ion-icon>
 	</div>
 	<div class="logo">
-		<span>Explore</span>
+			<img src="images/logo_new.png" class="heading header__item">
 	</div>
 	<div class="content">
-		<div class="heading"><span>Фарерские Острова</span>
+		<div class="title"><span>Фарерские Острова</span>
 		</div>
 		<div class="desc">
 			<p>Далеко-далеко за словесными горами в стране, 
@@ -42,27 +42,72 @@
 		Океана которой толку единственное свою бросил, которое за правилами проектах.</p>
 		</div>
 		<div class="link">
-			<button type="button">Отправится</button>
+			<button type="button">Отправиться</button>
 		</div>
 	</div>
 	<div class="img">
-		<img src="https://via.placeholder.com/400" alt="">
+		<img src="images/img_3.jpg" alt="">
 	</div>
 	<div class="media">
 		<ul>
 			<li>
-				<ion-icon name="logo-facebook"></ion-icon>
+			<img src="https://img.icons8.com/wired/64/000000/facebook.png" alt="facebook">
 			</li>
 			<li>
-				<ion-icon name="logo-instagram"></ion-icon>
+					<img src="https://img.icons8.com/wired/64/000000/instagram-new.png" alt="Instagram">
 			</li>
 			<li>
-				<ion-icon name="logo-twitter"></ion-icon>
+				<img src="https://img.icons8.com/wired/64/000000/vk-com.png" alt="Vkontakte">
 			</li>
 		</ul>
 	</div>
 	<div class="watch">
 		<ion-icon name="play"></ion-icon>
 	</div>
+	<script type="text/javascript">
+	 		TweenMax.from('.logo', 1.6, {
+	 			delay: 6.4,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 		TweenMax.from('.menu', 1.6, {
+	 			delay: 6.5,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 	TweenMax.from('.title', 1.6, {
+	 			delay: 6.6,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 		TweenMax.from('.desc', 1.6, {
+	 			delay: 6.7,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 	TweenMax.from('button', 1.6, {
+	 			delay: 6.8,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 	TtweenMax.from('.watch', 1.6, {
+	 			delay: 6.9,
+	 			opacity:0,
+	 			y:30,
+	 			rotation:90,
+	 			ease: Expo.easeInOut
+	 		});
+	 		TweenMax.from('.media img', 1.6, {
+	 			delay: 7,
+	 			opacity:0,
+	 			y:30,
+	 			ease: Expo.easeInOut
+	 		});
+	 </script>
 </body>
 </html>
