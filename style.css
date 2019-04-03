@@ -96,7 +96,14 @@ h1{
 	width: auto;
 	float: left;
 	cursor: pointer;
+	position:relative;
 }
+.color_img {
+	position: absolute;
+	left:0;
+	opacity: 0;
+}
+
 .coords {
 	font-size: 1.5rem;
 	display:inline-block;
@@ -492,8 +499,15 @@ img {
 		transform:rotate(-360deg);
 	}
 }
-
-
+/*@keyframes slideUp {
+	0%{
+		top: 0;
+	}
+	100% {
+		top: -100px;
+	}
+}
+*/
 
 
 
